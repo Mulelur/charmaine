@@ -9,7 +9,7 @@ export const Content = styled.div``;
 
 export const Text = styled.p`
   font-size: 1.4rem;
-  margin: 2.3rem;
+  margin: 2rem;
 `;
 
 export const MMTitle = styled.h2`
