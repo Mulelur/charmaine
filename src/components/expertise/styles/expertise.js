@@ -53,6 +53,7 @@ export const Title = styled.h3`
 export const List = styled.ul`
   list-style: none;
   margin: 1rem;
+  width: 35rem;
 `;
 
 export const ListItem = styled.li`
@@ -61,8 +62,10 @@ export const ListItem = styled.li`
   padding: 2rem;
   margin: 1.5rem;
   heigth: 5rem;
-  width: 35rem;
   padding: 2.3rem;
+  @media (max-width: 856px) {
+    width: 100%;
+  }
   transition: all 0.5s;
   box-shadow: 0 0 1px 0 rgba(6, 24, 44, 0.18), 0 1px 2px 0 rgba(6, 24, 44, 0.2);
   &:hover {
@@ -72,8 +75,15 @@ export const ListItem = styled.li`
 `;
 
 export const Subjects = styled.div`
-  margin: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
   display: flex;
+  @media (max-width: 856px) {
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+  margin-top: 4rem;
 `;
 
 export const Group = styled.div`
