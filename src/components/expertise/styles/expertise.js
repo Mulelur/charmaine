@@ -77,7 +77,7 @@ export const ListItem = styled.li`
 export const Subjects = styled.div`
   align-items: center;
   justify-content: center;
-  margin: 1rem;
+  padding: 2rem;
   display: flex;
   @media (max-width: 856px) {
     flex-direction: column;
